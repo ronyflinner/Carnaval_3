@@ -419,7 +419,7 @@ img {
   right: 0; }
   .header-area .pixel-main-menu {
     position: relative;
-    background-color: #fff; /*Agregado - Color blanco de las esquina del menu*/
+    background-color: #fff; /*Agregado - Color blanco de las*/
     width: 100%;
     z-index: 1;
     padding: 0 35px;
@@ -447,13 +447,13 @@ img {
           width: 80px;
           margin-right: 10px; } }
       .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
-        font-weight: 500;
+        font-weight: 400;
         text-transform: capitalize;
-        font-size: 18px;
-        padding: 0 10px;
-        color: #caad00; }
+        font-size: 16px;
+        padding: 0 5px;
+        color: #000; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ff7902; }
+          color: #caad00; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             font-size: 16px;
@@ -540,8 +540,8 @@ img {
           color: #212121;
           border-color: #212121; } }
       .header-area .top-social-info a:hover, .header-area .top-social-info a:focus {
-        border-color: #ff7902;
-        color: #ff7902; }
+        border-color: #caad00;
+        color: #caad00; }
 
   .header-area .is-sticky .pixel-main-menu {
    /* background-image: url('img/bg-img/st-2.png');*/
@@ -552,7 +552,7 @@ img {
      }
 
 .classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff; }
+  background-color: #caad00; }
 
 /* :: 5.0 Hero Area CSS */
 .hero-area {
