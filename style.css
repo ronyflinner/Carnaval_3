@@ -335,7 +335,7 @@ img {
 
 /* :: 3.6.0 ScrollUp */
 #scrollUp {
-  background-color: #688bfe;
+  background-color: #d3040e;
   border-radius: 5px 0 0 5px;
   bottom: 70px;
   color: #ffffff;
@@ -429,7 +429,7 @@ img {
       .header-area .pixel-main-menu {
         padding: 0; } }
     .header-area .pixel-main-menu .classy-nav-container {
-      background-color: transparent; }
+      background-color: #fff; /*ransparent*/  }
     .header-area .pixel-main-menu .classy-navbar {
       height: 100px;
       padding: 0;
@@ -1027,7 +1027,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #688bfe;
+  background-color: #d3040e;
   padding-left: 35px;
   padding-right: 35px; }
   @media only screen and (max-width: 767px) {
