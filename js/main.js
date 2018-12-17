@@ -451,20 +451,6 @@
     * ------------------------------------------------------ */
     (function ssInit() {
         
-        clPreloader();
-        clMenuOnScrolldown();
-        clOffCanvas();
-        clPhotoswipe();
-        clStatCount();
-        clMasonryFolio();
-        clSlickSlider();
-        clSmoothScroll();
-        clPlaceholder();
-        clAlertBoxes();
-        clContactForm();
-        clAOS();
-        clAjaxChimp();
-        clBackToTop();
 
     })();
         
