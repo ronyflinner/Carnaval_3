@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="css/simplyCountdown.theme.losange.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+   
+
+    <div class="examples">
+        <h3>A demo of countdown with jQuery</h3>
+        <div class="simply-countdown-losange" id="demo-jquery-countdown"></div>
+
+    </div>
+    
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="js/simplyCountdown.js"></script>
+<script>
+    var d = new Date(new Date().getTime() + 48 * 120 * 120 * 3000);
+
+    //A demo of jQuery countdown
+    $('#demo-jquery-countdown').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script> 
+</body>
+</html>
