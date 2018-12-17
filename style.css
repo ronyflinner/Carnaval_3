@@ -419,6 +419,7 @@ img {
   right: 0; }
   .header-area .pixel-main-menu {
     position: relative;
+    background-color: #fff; /*Agregado - Color blanco de las esquina del menu*/
     width: 100%;
     z-index: 1;
     padding: 0 35px;
@@ -433,6 +434,7 @@ img {
     .header-area .pixel-main-menu .classy-navbar {
       height: 100px;
       padding: 0;
+
       background-color: transparent; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .pixel-main-menu .classy-navbar {
@@ -449,7 +451,7 @@ img {
         text-transform: capitalize;
         font-size: 18px;
         padding: 0 10px;
-        color: #ffffff; }
+        color: #caad00; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
           color: #ff7902; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -542,7 +544,8 @@ img {
         color: #ff7902; }
 
   .header-area .is-sticky .pixel-main-menu {
-    background-image: url('img/bg-img/st-2.png');
+   /* background-image: url('img/bg-img/st-2.png');*/
+   background-color: #fff;
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3);
 
    
