@@ -451,9 +451,9 @@ img {
         text-transform: capitalize;
         font-size: 16px;
         padding: 0 5px;
-        color: #caad00; }
+        color: #bc9154; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #bc9154; }
+          color: #caad00; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             font-size: 16px;

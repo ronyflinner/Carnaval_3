@@ -38,11 +38,26 @@
 
                 }
 
+                .c-icon-btn {
+                    background-color: transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    display: inline-block;
+                    padding: 11px 15px 11px 54px;
+                    position: relative;
+                    transition: all 220ms ease-in-out;
+                }
+
+           
+
             </style>
 
 </head>
 
 <body>
+
+
+    
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
@@ -81,7 +96,7 @@
                              <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Inicio &nbsp; &nbsp;</a></li>
+                                    <li><a href="index.html" >Inicio &nbsp; &nbsp;</a></li>
                                     <li><a href="portfolio.html">Carnaval de São Paulo</a>
                                         <ul class="dropdown">
                                             <li><a href="index.html">Historia</a></li>
@@ -141,17 +156,19 @@
             <!-- Single Slide -->
             <div class="single-slide">
                 <!-- Background Image-->
-                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/banner2.jpg);"></div>
+                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/desfile2018-49.jpg);"></div>
+
                 <!-- Welcome Text -->
                 <div class="container h-100">
 
-                    <div class="row h-100 align-items-center">
+                    <div class="row h-100 align-items-center ">
                         <div class="col-12 col-lg-12">
 
-                            <div class="welcome-text text-center" style="position: relative;">
-                                <h2 data-animation="fadeInUp" data-delay="300ms"><span><img src="img/text-img/peruenelcarnaval.png" alt=""></h2>
+                            <div class="welcome-text d-flex justify-content-center" >
+                                <h2 data-animation="fadeInUp" data-delay="300ms"><span>
+                                    <img src="img/text-img/titulo_principal.png" style="height: 130px; width:500px;" alt=""></h2>
                                
-                                <div id="playerContainer" ></div>
+                           
                                 
                             </div>
                             
@@ -159,8 +176,6 @@
                     </div>
                 </div>
             </div>
-
-           
 
         </div>
     </section>
@@ -175,6 +190,8 @@
 
               <div class="jumbotron jumbotron-fluid" >
                 <div class="container">
+             
+
                     <p> Seducida por su arte, danzas, trajes típicos, fiestas locales y religiosas, la Escuela de Samba Unidos de Vila María eligió representar al Perú en el Carnaval São Paulo 2019.<p>
                 <p>
                    Se trata de la primera vez que el Perú estará ante los ojos del mundo y tendrá presencia en la fiesta más famosa del planeta.
@@ -187,10 +204,13 @@
                 
         </div>
         <!-- Feature Thumbnail -->
-        <div class="feature-thumbnail bg-img jarallax text-center" style="background-image: url(img/bg-img/12.jpg);">
+        <div class="feature-thumbnail bg-img jarallax text-center" style="background-image: url(img/bg-img/carrosalegóricos.jpg);">
           
         
-              <a href="#"><img class="img-responsive" id="play" src="img/logo-img/icono.png" alt="" ></a>  
+            <a href="#">
+
+                <img class="img-responsive" id="play" src="img/logo-img/icono.png" alt="" >
+            </a>  
  
         </div>
 
@@ -286,7 +306,7 @@ border: 0px solid #000000;
          <div style="background-image: url(img/bg-img/st-2.png);" class="secN">
         <br>
          <h2 align="center">
-         <img src="img/text-img/noticias.png" class="img-responsive wow fadeInUp" data-wow-delay="0.4s" width="200px" height="305px">
+         <img src="img/text-img/txn-2.png" class="img-responsive wow fadeInUp" data-wow-delay="0.4s" >
          </h2>
         <br>
  
@@ -524,12 +544,11 @@ border: 0px solid #000000;
                             <div class="single-footer-widget mb-100">
                                 <h5 class="widget-title">Redes Sociales</h5>
                                 <div class="footer-social-info">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                                    <a href="#"><i class="fa fa-flickr"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                  <a href="https://www.facebook.com/peruenelcarnaval/" title=""><i class="fa fa-facebook"></i></a>
+                 <a href="https://twitter.com/PeruCarnaval" title=""><i class="fa fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/peruenelcarnaval/" title=""><i class="fa fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/channel/UCWg-V4kdxa5CcVl8BYJ1hrQ" title=""><i class="fa fa-youtube"></i></a>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -591,6 +610,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
     <script src="js/circleaudioplayer.js"></script> 
     <script src="js/jquery.vide.min.js"></script> 
     <script src="js/simplyCountdown.js"></script>
+
+    
 
 <script>
     var d = new Date(new Date().getTime() + 48 * 120 * 120 * 3000);
